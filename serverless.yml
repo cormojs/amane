@@ -1,5 +1,5 @@
 service:
-  name: amane-test
+  name: amane
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name

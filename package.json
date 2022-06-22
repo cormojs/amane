@@ -8,7 +8,7 @@
     "lint:fix": "eslint --fix src/**/*"
   },
   "dependencies": {
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "metascraper": "^5.7.17",
     "metascraper-author": "^5.7.17",
     "metascraper-clearbit": "^5.7.17",

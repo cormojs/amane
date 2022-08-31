@@ -20,7 +20,7 @@
     "metascraper-title": "^5.7.17",
     "metascraper-url": "^5.7.17",
     "moment": "^2.29.4",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.35",
     "source-map-support": "^0.5.10",
     "tough-cookie": "^3.0.1"
   },

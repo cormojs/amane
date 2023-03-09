@@ -25,7 +25,7 @@
     "tough-cookie": "^3.0.1"
   },
   "devDependencies": {
-    "@metascraper/helpers": "^5.7.17",
+    "@metascraper/helpers": "^5.33.7",
     "@types/aws-lambda": "^8.10.17",
     "@types/cheerio": "^0.22.13",
     "@types/got": "^9.6.9",

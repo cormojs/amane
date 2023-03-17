@@ -1,11 +1,11 @@
 import * as cheerio from 'cheerio'
-import * as got from 'got'
+import type { OptionsOfTextResponseBody } from 'got'
 
 export type Rule = Record<keyof Metadata, MetascraperFunc[]>
 
 export interface MetaResolver {
   url(): string
-  options():  got.GotOptions<null>
+  options(): OptionsOfTextResponseBody
   rule(): Rule
 }
 
@@ -25,7 +25,7 @@ export interface MetaResolverRule {
   rule: () => Rule
   match: (url: string) => boolean
   resolveUrl: (url: string) => string
-  resolveOptions: (url: string) => got.GotOptions<null>
+  resolveOptions: (url: string) => OptionsOfTextResponseBody
 }
 
 export interface MetascraperArg {
